@@ -114,7 +114,7 @@ class MTLFile {
           break;
 
         default:
-          this._fileError(`Unrecognized statement: ${lineItems[0]}`);
+          this._notImplemented(`Unrecognized statement: ${lineItems[0]} - ignoring....`);
       }
     });
 
